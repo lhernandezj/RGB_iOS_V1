@@ -1,0 +1,6 @@
+framework module AOBAnalyticsReporting {
+  umbrella header "AOBAnalyticsReporting.h"
+
+  export *
+  module * { export * }
+}
