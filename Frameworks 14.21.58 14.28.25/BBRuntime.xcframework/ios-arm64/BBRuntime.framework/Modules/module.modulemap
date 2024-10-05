@@ -1,0 +1,4 @@
+framework module BBRuntime {
+  header "BBRuntime-Swift.h"
+  requires objc
+}
