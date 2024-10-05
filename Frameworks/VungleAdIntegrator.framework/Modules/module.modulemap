@@ -1,6 +1,0 @@
-framework module VungleAdIntegrator {
-  umbrella header "VungleAdIntegrator.h"
-  export *
-
-  module * { export * }
-}
