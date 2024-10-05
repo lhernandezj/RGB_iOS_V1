@@ -3,13 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03D98015CDE346F38787B407 /* BBRuntime.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B28F056D85384987A7B55414 /* BBRuntime.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		046ED92B29A6C45D007CA38F /* SwiftFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046ED92A29A6C45D007CA38F /* SwiftFile.swift */; };
 		046ED92D29A6CC65007CA38F /* Test.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 046ED92C29A6CC64007CA38F /* Test.storekit */; };
+		0B502B8ACA62477DBCCC4D7A /* BuildboxIntegratorInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D5973CF2FB1243D78673DBC0 /* BuildboxIntegratorInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2E295242AC184357854C69FD /* BuildboxIntegratorInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5973CF2FB1243D78673DBC0 /* BuildboxIntegratorInterface.framework */; };
+		3036FD8F22C04C9D905AFB69 /* VungleAdIntegrator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A03E2BE5E104D6B800B881C /* VungleAdIntegrator.framework */; };
 		3064046123976437004BA446 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 3064046023976437004BA446 /* data */; };
+		409B6EFFEBC3456781E28E7B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F949406D4F7445194A5420B /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		41F470E5B7C14AD4BF5F017F /* VungleAdsSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD88A43D89A54312AA52C293 /* VungleAdsSDK.xcframework */; };
 		4901F4CC1F68B648006A85A3 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4901F4CB1F68B648006A85A3 /* EventKitUI.framework */; };
 		4901F4F91F68C308006A85A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4901F4F81F68C308006A85A3 /* Images.xcassets */; };
 		497570F01F68676E007798B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 497570EF1F68676E007798B9 /* main.m */; };
@@ -34,22 +40,16 @@
 		49BBC02720F3F4B200BEB2FD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BBC02620F3F4B200BEB2FD /* AudioToolbox.framework */; };
 		49BBC03620F43DC800BEB2FD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BBC03520F43DC800BEB2FD /* AVFoundation.framework */; };
 		50346C992644595D004172F9 /* CustomAdIntegrator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 50346C952644595D004172F9 /* CustomAdIntegrator.mm */; };
+		5C9DD36607504D76B5E37981 /* VungleAdsSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD88A43D89A54312AA52C293 /* VungleAdsSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7D4DDE0A2EDE4611BEBF9684 /* AOBAnalyticsReporting.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 96F48ADDC53947DDAFDD92C2 /* AOBAnalyticsReporting.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7F91360856424D8E81B1D2BB /* BBRuntime.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28F056D85384987A7B55414 /* BBRuntime.xcframework */; };
+		91FD6648733948EC99FBB40C /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A29FEC46D364A41A40FFF4E /* AppTrackingTransparency.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		9E239E779A4742219D4B70BB /* AOBAnalyticsReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F48ADDC53947DDAFDD92C2 /* AOBAnalyticsReporting.framework */; };
 		C0327733248A0010001981A3 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0327732248A000F001981A3 /* Accelerate.framework */; };
 		C09D10412384EFCC00CCC959 /* consentDialogImage.png in Resources */ = {isa = PBXBuildFile; fileRef = C09D10402384EFCC00CCC959 /* consentDialogImage.png */; };
 		C0C93F5F248F0ADD00850A08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C93F5E248F0ADD00850A08 /* LaunchScreen.storyboard */; };
 		C0DF9024238C6E600099FE9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0DF9023238C6E600099FE9E /* Main.storyboard */; };
-		40117E7762844B3E902715C1 /* BBRuntime.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7F35ABF8324D39AE48E8FA /* BBRuntime.xcframework */; };
-E5E8974F000647179DAA2A1D /* BBRuntime.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7F35ABF8324D39AE48E8FA /* BBRuntime.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-FBD10A438F214139AC228A76 /* AOBAnalyticsReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB3FF0F96D747868D79B596 /* AOBAnalyticsReporting.framework */; };
-4861F4E56EB94D48B2525B65 /* AOBAnalyticsReporting.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DAB3FF0F96D747868D79B596 /* AOBAnalyticsReporting.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-8731C4B4C41E43B18C61683B /* BuildboxIntegratorInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FCC8332E8245ECA6BEDBBE /* BuildboxIntegratorInterface.framework */; };
-5A20700047364F59951B5D0E /* BuildboxIntegratorInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 76FCC8332E8245ECA6BEDBBE /* BuildboxIntegratorInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-72B821243F7B434BAD3CA81B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BED30BF1D8742CABAEAAD79 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-9D2296EC9EDF4077A6F04A0E /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F754D2FFF97047DD8617A79A /* AppTrackingTransparency.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-F13A036AD4BE4072879224CD /* VungleAdIntegrator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B165188EDA864696919E9095 /* VungleAdIntegrator.framework */; };
-7A8A7F3DA1C54B1AA3A4461D /* VungleAdIntegrator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B165188EDA864696919E9095 /* VungleAdIntegrator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-D7A40F9CEFD4422CA860117C /* VungleAdsSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD39C85613544DE9BE6698B /* VungleAdsSDK.xcframework */; };
-809446EA965A48BBBC921F99 /* VungleAdsSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ABD39C85613544DE9BE6698B /* VungleAdsSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF16BB5302A343E2A865717E /* VungleAdIntegrator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A03E2BE5E104D6B800B881C /* VungleAdIntegrator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,11 +59,11 @@ D7A40F9CEFD4422CA860117C /* VungleAdsSDK.xcframework in Frameworks */ = {isa = P
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E5E8974F000647179DAA2A1D /* BBRuntime.xcframework in Embed Frameworks */,
-4861F4E56EB94D48B2525B65 /* AOBAnalyticsReporting.framework in Embed Frameworks */,
-5A20700047364F59951B5D0E /* BuildboxIntegratorInterface.framework in Embed Frameworks */,
-7A8A7F3DA1C54B1AA3A4461D /* VungleAdIntegrator.framework in Embed Frameworks */,
-809446EA965A48BBBC921F99 /* VungleAdsSDK.xcframework in Embed Frameworks */,
+				03D98015CDE346F38787B407 /* BBRuntime.xcframework in Embed Frameworks */,
+				7D4DDE0A2EDE4611BEBF9684 /* AOBAnalyticsReporting.framework in Embed Frameworks */,
+				0B502B8ACA62477DBCCC4D7A /* BuildboxIntegratorInterface.framework in Embed Frameworks */,
+				FF16BB5302A343E2A865717E /* VungleAdIntegrator.framework in Embed Frameworks */,
+				5C9DD36607504D76B5E37981 /* VungleAdsSDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +74,7 @@ D7A40F9CEFD4422CA860117C /* VungleAdsSDK.xcframework in Frameworks */ = {isa = P
 		046ED92929A6C45D007CA38F /* BBPlayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BBPlayer-Bridging-Header.h"; sourceTree = "<group>"; };
 		046ED92A29A6C45D007CA38F /* SwiftFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFile.swift; sourceTree = "<group>"; };
 		046ED92C29A6CC64007CA38F /* Test.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Test.storekit; sourceTree = "<group>"; };
+		2F949406D4F7445194A5420B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		3064046023976437004BA446 /* data */ = {isa = PBXFileReference; lastKnownFileType = text; path = data; sourceTree = "<group>"; };
 		4901F4CB1F68B648006A85A3 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
 		4901F4F81F68C308006A85A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -104,17 +105,16 @@ D7A40F9CEFD4422CA860117C /* VungleAdsSDK.xcframework in Frameworks */ = {isa = P
 		49BBC03520F43DC800BEB2FD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		50346C952644595D004172F9 /* CustomAdIntegrator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CustomAdIntegrator.mm; sourceTree = "<group>"; };
 		50346C982644595D004172F9 /* CustomAdIntegrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAdIntegrator.h; sourceTree = "<group>"; };
+		6A03E2BE5E104D6B800B881C /* VungleAdIntegrator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VungleAdIntegrator.framework; path = Frameworks/VungleAdIntegrator.framework; sourceTree = "<group>"; };
+		7A29FEC46D364A41A40FFF4E /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		96F48ADDC53947DDAFDD92C2 /* AOBAnalyticsReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AOBAnalyticsReporting.framework; path = Frameworks/AOBAnalyticsReporting.framework; sourceTree = "<group>"; };
+		B28F056D85384987A7B55414 /* BBRuntime.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BBRuntime.xcframework; path = Frameworks/BBRuntime.xcframework; sourceTree = "<group>"; };
+		BD88A43D89A54312AA52C293 /* VungleAdsSDK.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:GTA9LK7P23:Vungle, Inc."; lastKnownFileType = wrapper.xcframework; name = VungleAdsSDK.xcframework; path = Frameworks_3rdParty/VungleAdsSDK.xcframework; sourceTree = "<group>"; };
 		C0327732248A000F001981A3 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		C09D10402384EFCC00CCC959 /* consentDialogImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = consentDialogImage.png; sourceTree = "<group>"; };
 		C0C93F5E248F0ADD00850A08 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0DF9023238C6E600099FE9E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		6D7F35ABF8324D39AE48E8FA /* BBRuntime.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BBRuntime.xcframework; path = Frameworks/BBRuntime.xcframework; sourceTree = "<group>"; };
-DAB3FF0F96D747868D79B596 /* AOBAnalyticsReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AOBAnalyticsReporting.framework; path = Frameworks/AOBAnalyticsReporting.framework; sourceTree = "<group>"; };
-76FCC8332E8245ECA6BEDBBE /* BuildboxIntegratorInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuildboxIntegratorInterface.framework; path = Frameworks/BuildboxIntegratorInterface.framework; sourceTree = "<group>"; };
-6BED30BF1D8742CABAEAAD79 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-F754D2FFF97047DD8617A79A /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
-B165188EDA864696919E9095 /* VungleAdIntegrator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VungleAdIntegrator.framework; path = Frameworks/VungleAdIntegrator.framework; sourceTree = "<group>"; };
-ABD39C85613544DE9BE6698B /* VungleAdsSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VungleAdsSDK.xcframework; path = Frameworks_3rdParty/VungleAdsSDK.xcframework; sourceTree = "<group>"; };
+		D5973CF2FB1243D78673DBC0 /* BuildboxIntegratorInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuildboxIntegratorInterface.framework; path = Frameworks/BuildboxIntegratorInterface.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,13 +142,13 @@ ABD39C85613544DE9BE6698B /* VungleAdsSDK.xcframework */ = {isa = PBXFileReferenc
 				497575761F687FEB007798B9 /* libxml2.tbd in Frameworks */,
 				497575781F687FF7007798B9 /* libsqlite3.tbd in Frameworks */,
 				497575511F687ED8007798B9 /* libz.tbd in Frameworks */,
-				40117E7762844B3E902715C1 /* BBRuntime.xcframework in Frameworks */,
-FBD10A438F214139AC228A76 /* AOBAnalyticsReporting.framework in Frameworks */,
-8731C4B4C41E43B18C61683B /* BuildboxIntegratorInterface.framework in Frameworks */,
-72B821243F7B434BAD3CA81B /* AdSupport.framework in Frameworks */,
-9D2296EC9EDF4077A6F04A0E /* AppTrackingTransparency.framework in Frameworks */,
-F13A036AD4BE4072879224CD /* VungleAdIntegrator.framework in Frameworks */,
-D7A40F9CEFD4422CA860117C /* VungleAdsSDK.xcframework in Frameworks */,
+				7F91360856424D8E81B1D2BB /* BBRuntime.xcframework in Frameworks */,
+				9E239E779A4742219D4B70BB /* AOBAnalyticsReporting.framework in Frameworks */,
+				2E295242AC184357854C69FD /* BuildboxIntegratorInterface.framework in Frameworks */,
+				409B6EFFEBC3456781E28E7B /* AdSupport.framework in Frameworks */,
+				91FD6648733948EC99FBB40C /* AppTrackingTransparency.framework in Frameworks */,
+				3036FD8F22C04C9D905AFB69 /* VungleAdIntegrator.framework in Frameworks */,
+				41F470E5B7C14AD4BF5F017F /* VungleAdsSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,13 +234,13 @@ D7A40F9CEFD4422CA860117C /* VungleAdsSDK.xcframework in Frameworks */,
 				497575521F687EE5007798B9 /* GameKit.framework */,
 				4975754E1F687EC4007798B9 /* StoreKit.framework */,
 				4975754B1F687E7C007798B9 /* CoreMotion.framework */,
-				6D7F35ABF8324D39AE48E8FA /* BBRuntime.xcframework */,
-DAB3FF0F96D747868D79B596 /* AOBAnalyticsReporting.framework */,
-76FCC8332E8245ECA6BEDBBE /* BuildboxIntegratorInterface.framework */,
-6BED30BF1D8742CABAEAAD79 /* AdSupport.framework */,
-F754D2FFF97047DD8617A79A /* AppTrackingTransparency.framework */,
-B165188EDA864696919E9095 /* VungleAdIntegrator.framework */,
-ABD39C85613544DE9BE6698B /* VungleAdsSDK.xcframework */,
+				B28F056D85384987A7B55414 /* BBRuntime.xcframework */,
+				96F48ADDC53947DDAFDD92C2 /* AOBAnalyticsReporting.framework */,
+				D5973CF2FB1243D78673DBC0 /* BuildboxIntegratorInterface.framework */,
+				2F949406D4F7445194A5420B /* AdSupport.framework */,
+				7A29FEC46D364A41A40FFF4E /* AppTrackingTransparency.framework */,
+				6A03E2BE5E104D6B800B881C /* VungleAdIntegrator.framework */,
+				BD88A43D89A54312AA52C293 /* VungleAdsSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -445,7 +445,7 @@ ABD39C85613544DE9BE6698B /* VungleAdsSDK.xcframework */,
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_ENABLE_MODULES = YES;
 				COMPRESS_PNG_FILES = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 52637K2858;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,9 +462,15 @@ ABD39C85613544DE9BE6698B /* VungleAdsSDK.xcframework */,
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = BBPlayer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = ("-ObjC", "$(inherited)" );
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.velocirapptor.rgb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_PNG_TEXT = NO;
@@ -484,7 +490,7 @@ ABD39C85613544DE9BE6698B /* VungleAdsSDK.xcframework */,
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_ENABLE_MODULES = YES;
 				COMPRESS_PNG_FILES = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 52637K2858;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -500,9 +506,15 @@ ABD39C85613544DE9BE6698B /* VungleAdsSDK.xcframework */,
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = BBPlayer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = ("-ObjC", "$(inherited)" );
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.velocirapptor.rgb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_PNG_TEXT = NO;

@@ -5,7 +5,7 @@
 	<key>BBVersion</key>
 	<string>3.6.3</string>
 	<key>CFBundleDisplayName</key>
-	<string></string>
+	<string>RGB</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIconName</key>
